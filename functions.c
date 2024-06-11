@@ -98,7 +98,7 @@ void reseta_register(unsigned short *r0)
 }
 
 //  R1 e R2
-void cor_rgb(unsigned short *r1, unsigned short *r2, int num, int num2, int num3)
+void cor_display(unsigned short *r1, unsigned short *r2, int num, int num2, int num3)
 {
     if (num <= 255)
     {

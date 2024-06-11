@@ -134,7 +134,7 @@ int main()
             break;
         case 5:
             printf("Digite o LED de status (R, G, B): \n");
-            scanf("%c", &character);
+            scanf(" %c", &character);
             status_led(r0, character);
             break;
         case 6:
@@ -164,7 +164,7 @@ int main()
         case 10:
             printf("Digite a o conteudo que deseja exibir no display\n");
             scanf("%s", &string);
-            exibir_dados(string, dados);
+            exibir_dados(string, &dados);
             break;
         case 11:
             printf("Saindo...\n");
